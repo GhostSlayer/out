@@ -27,22 +27,28 @@
 You can download the latest version from here:
 
 <div>
-  <a href="https://instatus.com/out">
+  <a href="https://github.com/instatushq/out/releases/download/v1.0.1/Instatus.Out.Setup.1.0.1.exe">
     <img width="15" height="15" src="https://user-images.githubusercontent.com/1072229/106638253-591f9180-658c-11eb-9a68-1fe9a581816d.png" alt="Windows logo" /> 
     <img src="https://img.spacergif.org/v1/spacer.gif" width="2" height="1">
     Windows
   </a>
   <br />
-  <a href="https://instatus.com/out">
+  <a href="https://github.com/instatushq/out/releases/download/v1.0.1/Instatus.Out-1.0.1.dmg">
     <img width="15" height="15" src="https://user-images.githubusercontent.com/1072229/106638530-a6036800-658c-11eb-8e40-a868cfc5efe6.png" alt="macOS logo" />
     <img src="https://img.spacergif.org/v1/spacer.gif" width="2" height="1">
       macOS
   </a>
   <br />
-  <a href="https://instatus.com/out">
+    <a href="https://github.com/instatushq/out/releases/download/v1.0.1/Instatus.Out-1.0.1.AppImage">
     <img width="15" height="15" src="https://user-images.githubusercontent.com/1072229/106638818-f084e480-658c-11eb-92c3-b8c2ed89aa02.png" alt="Linux logo" /> 
     <img src="https://img.spacergif.org/v1/spacer.gif" width="2" height="1">
-    Linux
+    Linux (.AppImage)
+  </a>
+  <br />
+  <a href="https://github.com/instatushq/out/releases/download/v1.0.1/instatus-out_1.0.1_amd64.deb">
+    <img width="15" height="15" src="https://user-images.githubusercontent.com/1072229/106638818-f084e480-658c-11eb-92c3-b8c2ed89aa02.png" alt="Linux logo" /> 
+    <img src="https://img.spacergif.org/v1/spacer.gif" width="2" height="1">
+    Linux (.deb)
   </a>
 </div>
 
