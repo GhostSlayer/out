@@ -64,7 +64,7 @@
     ],
     "directories": {
       "buildResources": "buildResources",
-      "output": "release"
+      "output": "dist"
     },
     "mac": {
       "type": "distribution",
