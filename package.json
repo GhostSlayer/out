@@ -62,17 +62,31 @@
       "main.js",
       "first-run.js"
     ],
+    "directories": {
+      "buildResources": "buildResources",
+      "output": "release"
+    },
     "mac": {
-      "category": "public.app-category.developer-tools",
+      "type": "distribution",
+      "target": ["mas", "pkg", "dmg"],
+      "artifactName": "${productName}-${version}-${os}.${ext}",
       "icon": "assets/images/icon.icns",
+      "category": "public.app-category.developer-tools",
       "identity": "Instatus, Inc. (BRJY56MYNC)",
-      "hardenedRuntime": true,
       "gatekeeperAssess": false,
       "entitlements": "./entitlements/entitlements.mac.plist",
       "entitlementsInherit": "./entitlements/entitlements.mac.plist",
       "publish": [
         "github"
       ]
+    },
+    "mas": {
+      "hardenedRuntime" : false,
+      "type": "distribution",
+      "category": "public.app-category.developer-tools",
+      "entitlements": "./entitlements/entitlements.mas.plist",
+      "entitlementsInherit": "./entitlements/entitlements.mas.inherit.plist",
+      "provisioningProfile": "./entitlements/cominstatusout.provisionprofile"
     },
     "dmg": {
       "icon": "assets/images/icon.icns",
